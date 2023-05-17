@@ -5,8 +5,11 @@ Git add + nome do arquivo: Mandar os arquivos para "área de transferência". OU
 Git status: Atualização.
 Git commit -m "título do commit": Fazer um commit.
 Git remote add origin link.git: Adicionar conexão do repositório local com o repositório no Github. (Só precisa fazer na 1x)
-GIt push -U origin main: Empurra o commit para o Github.
+Git push -U origin main: Empurra o commit principal para o Github.
+Git push origin "o que será desenvolvido": Empurra a ramificação.
 Git checkout -b "o que será desenvolvido" (Nova branch "ramificação")
+Git branch -a: Mostrar qual ramificação está.
+Git checkout main: Volta para o ramo principal.
 
 
 
